@@ -1,6 +1,6 @@
 /*
     This component demonstrates the use case of useMeo hook.
-    In line [22] we are trying to find an item in large array(quite expensive operation, right?)
+    In line [24] we are trying to find an item in large array(quite expensive operation, right?)
     Now think whenever count changes the component will re-render and this operation re-run
     which will cause performance issues.
     In such cases useMemo is useful hook to use. It will cache the result of the calculation and 
